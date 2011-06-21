@@ -1,0 +1,9 @@
+" A shortcut to running ruby scripts
+:map ,r :! ruby % <CR>
+
+" somehow when shell is /bin/zsh it doesn't recognize the correct path (e.g.
+" ruby or ctags)
+map ,s :set shell=/bin/bash<CR>
+
+" condigure dictionary shortcut
+map ,d :set dict=/usr/share/dict/words<CR>

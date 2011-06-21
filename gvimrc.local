@@ -1,0 +1,5 @@
+" somehow it doesn't peak the right ctags
+" map <Leader>rt :!/opt/homebrew/bin/ctags --extra=+f -R *<CR><CR>
+
+" better color scheme
+colorscheme vwilight
