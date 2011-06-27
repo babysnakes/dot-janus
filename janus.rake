@@ -1,7 +1,4 @@
-vim_plugin_task "coffeescript vim snippets" do
-  sh "curl https://github.com/carlosvillu/coffeScript-VIM-Snippets/raw/master/coffee.snippets > snippets/coffee.snippets"
-end
-
+vim_plugin_task "coffeescript_vim_snippets", "git://github.com/carlosvillu/coffeScript-VIM-Snippets.git"
 
 # Since janus disabled Hammer plugin I'll try to use the preview plugin
 # TODO: do we also need to install required gems?
