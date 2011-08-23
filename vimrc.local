@@ -8,10 +8,6 @@
 
 " condigure dictionary shortcut
 map ,d :set dict=/usr/share/dict/words<CR>
-" Since the move to Lion and rbenv I can't seem to load :Preview of files.
-" It doesn't recognize the bluecloth gem, so for now I'll use this ugly
-" workaroung (open in textmate).
-map ,m :!mate %<CR><CR>
 
 " From the vim wiki:
 " Append modeline after last line in buffer.
