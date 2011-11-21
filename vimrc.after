@@ -1,5 +1,5 @@
 " A shortcut to running ruby scripts
-:map ,r :! ruby % <CR>
+" :map ,r :! ruby % <CR>
 
 " somehow when shell is /bin/zsh it doesn't recognize the correct path (e.g.
 " ruby or ctags)
@@ -7,7 +7,7 @@
 :set shell=/bin/bash
 
 " condigure dictionary shortcut
-map ,d :set dict=/usr/share/dict/words<CR>
+"map ,d :set dict=/usr/share/dict/words<CR>
 
 " From the vim wiki:
 " Append modeline after last line in buffer.
