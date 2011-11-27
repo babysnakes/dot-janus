@@ -6,6 +6,9 @@
 " map ,s :set shell=/bin/bash<CR>
 :set shell=/bin/bash
 
+" A fix for Hammer when running through bundler (e.g. knife node edit...)
+let g:HammerQuiet = 1
+
 " condigure dictionary shortcut
 "map ,d :set dict=/usr/share/dict/words<CR>
 
