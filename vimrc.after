@@ -9,6 +9,9 @@
 " A fix for Hammer when running through bundler (e.g. knife node edit...)
 let g:HammerQuiet = 1
 
+" More history
+:set history=100
+
 " condigure dictionary shortcut
 "map ,d :set dict=/usr/share/dict/words<CR>
 
