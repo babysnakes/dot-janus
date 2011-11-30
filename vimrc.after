@@ -9,6 +9,11 @@ set shell=/bin/bash
 " A fix for Hammer when running through bundler (e.g. knife node edit...)
 let g:HammerQuiet = 1
 
+" Somehow the ZoomWin default mapping (<C-W>o) deletes other windows.
+" Note that this mapping will cause error if <leader> is not remapped (to
+" something else like ',').
+map \\ :ZoomWin<CR>
+
 " More history
 set history=100
 
