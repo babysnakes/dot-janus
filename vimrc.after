@@ -4,13 +4,13 @@
 " somehow when shell is /bin/zsh it doesn't recognize the correct path (e.g.
 " ruby or ctags)
 " map ,s :set shell=/bin/bash<CR>
-:set shell=/bin/bash
+set shell=/bin/bash
 
 " A fix for Hammer when running through bundler (e.g. knife node edit...)
 let g:HammerQuiet = 1
 
 " More history
-:set history=100
+set history=100
 
 " condigure dictionary shortcut
 "map ,d :set dict=/usr/share/dict/words<CR>
