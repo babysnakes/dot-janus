@@ -1,2 +1,5 @@
 " Change the default leader
 let mapleader = ","
+
+" disabled plugins:
+call janus#disable_plugin('vimwiki', "I don't use it")
