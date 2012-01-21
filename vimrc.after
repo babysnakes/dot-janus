@@ -1,5 +1,5 @@
-" A shortcut to running ruby scripts
-" :map ,r :! ruby % <CR>
+" Some shortcuts
+map \c :!ctags --extra=+f -R *<CR><CR>
 
 " somehow when shell is /bin/zsh it doesn't recognize the correct path (e.g.
 " ruby or ctags)
