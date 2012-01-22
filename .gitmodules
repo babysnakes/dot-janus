@@ -4,3 +4,6 @@
 [submodule "tabular"]
 	path = tabular
 	url = git://github.com/godlygeek/tabular.git
+[submodule "preview"]
+	path = preview
+	url = git://github.com/greyblake/vim-preview.git
