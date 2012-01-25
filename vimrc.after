@@ -6,8 +6,8 @@ map \c :!ctags --extra=+f -R *<CR><CR>
 " map ,s :set shell=/bin/bash<CR>
 set shell=/bin/bash
 
-" A fix for Hammer when running through bundler (e.g. knife node edit...)
-let g:HammerQuiet = 1
+" Ignore .hg directories (espacially in CrtlP).
+set wildignore+=*/.hg/*
 
 " Somehow the ZoomWin default mapping (<C-W>o) deletes other windows.
 " Note that this mapping will cause error if <leader> is not remapped (to
@@ -18,7 +18,7 @@ map \\ :ZoomWin<CR>
 set history=100
 
 " condigure dictionary shortcut
-"map ,d :set dict=/usr/share/dict/words<CR>
+"map \D :set dict=/usr/share/dict/words<CR>
 
 " From the vim wiki:
 " Append modeline after last line in buffer.
