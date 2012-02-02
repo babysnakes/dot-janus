@@ -3,3 +3,6 @@ let mapleader = ","
 
 " disabled plugins:
 call janus#disable_plugin('vimwiki', "I don't use it")
+call janus#disable_plugin('puppet', "I use chef")
+call janus#disable_plugin('scala', "I don't use it")
+call janus#disable_plugin('easymotion', "I don't use it")
