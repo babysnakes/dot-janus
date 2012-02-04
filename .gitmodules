@@ -7,3 +7,6 @@
 [submodule "preview"]
 	path = preview
 	url = git://github.com/greyblake/vim-preview.git
+[submodule "vim-less"]
+	path = vim-less
+	url = https://github.com/groenewege/vim-less.git
